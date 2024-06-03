@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-24T14:50:11 IST" name="Default suite" finished-at="2024-05-24T14:50:13 IST" duration-ms="2959">
+    <groups>
+    </groups>
+    <test started-at="2024-05-24T14:50:11 IST" name="Default test" finished-at="2024-05-24T14:50:13 IST" duration-ms="2959">
+      <class name="assignment3.TestNG">
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment3.TestNG@6cc558c6]" started-at="2024-05-24T14:49:38 IST" name="setup" finished-at="2024-05-24T14:50:11 IST" duration-ms="32533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:assignment3.TestNG@6cc558c6]" started-at="2024-05-24T14:50:11 IST" name="Login" data-provider="dataSet" finished-at="2024-05-24T14:50:13 IST" duration-ms="2823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivp123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:assignment3.TestNG@6cc558c6]" started-at="2024-05-24T14:50:14 IST" name="closebrowser" finished-at="2024-05-24T14:50:14 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- assignment3.TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
